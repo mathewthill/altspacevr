@@ -2,7 +2,6 @@
 <html><body>
 <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/AltspaceVR/aframe-altspace-component/v0.3.0/dist/aframe-altspace-component.min.js"></script>
-<script src="https://github.com/ngokevin/aframe-physics-components/blob/master/dist/aframe-physics-components.min.js"></script>
  
 <!-- set up the scene -->
 <a-scene altspace='vertical-align: bottom;'>
@@ -10,7 +9,7 @@
     <!-- preload all our textures -->
     <a-assets>
     </a-assets>
-    <a-entity scale="0.05 0.05 0.05" physics-body="boundingBox: 1 1 1; mass: 5; velocity: 0.2 0 0">
+    <a-entity scale="0.01 0.01 0.01">
         <a-collada-model src="HouseLevel2.dae"></a-collada-model>
     </a-entity>
    
